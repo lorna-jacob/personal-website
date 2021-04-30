@@ -62,8 +62,5 @@
   },
   "resolutions": {
     "natives": "1.1.6"
-  },
-  "dependencies": {
-    "hugo": "0.0.3"
   }
 }
