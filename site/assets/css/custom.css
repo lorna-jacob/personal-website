@@ -1,0 +1,23 @@
+:root {
+    /* Font Sizes */
+    --title: 3.998rem;
+    --subtitle: 2.827rem;
+    --header: 1.999rem;
+    --subheader: 1.414rem;
+
+    /* Colors */
+    --primary: #db7093;
+    --primary-dark: #ce3b6b;
+    --primary-light: #ecb2c5;
+    --primary-text: #a5a5a5;
+    --secondary-text: #fbe7ec;
+    --accent: #536dfe;
+    --divider: #bdbdbd;
+    --white: #fdfdfd;
+
+    /* Breakpoints */
+    --sm: 576px;
+    --md: 768px;
+    --lg: 992px;
+    --xl: 1200px;
+}
