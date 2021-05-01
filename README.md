@@ -1,12 +1,10 @@
-# Victor Hugo
+[![Netlify Status](https://api.netlify.com/api/v1/badges/eed8f65e-fd6b-41d9-943c-37d3bdaff422/deploy-status)](https://app.netlify.com/sites/lorna-jacob-website/deploys)
 
-**A Hugo boilerplate for creating truly epic websites**
 
-This is a boilerplate for using [Hugo](https://gohugo.io/) as a static site generator and [Webpack](https://webpack.js.org/) as your asset pipeline.
+# Personal Website
 
-Victor Hugo setup to use [PostCSS](http://postcss.org/) and [Babel](https://babeljs.io/) for CSS and JavaScript compiling/transpiling.
-
-This project is released under the [MIT license](LICENSE). Please make sure you understand its implications and guarantees.
+**A Hugo website with customized Hugo theme and deploys with Netlify**
+https://lornajacob.com
 
 ## Usage
 
@@ -101,16 +99,5 @@ You can access the environment variable inside the theme files with `getenv "NOD
     {{ if eq (getenv "NODE_ENV") "development" }}You're in development!{{ end }}
 
 All tasks starting with _build_ set the environment variable to `production` - the other will set it to `development`.
-
-## Deploying to Netlify
-
-- Push your clone to your own GitHub repository.
-- [Create a new site on Netlify](https://app.netlify.com/start) and link the repository.
-
-Now Netlify will build and deploy your site whenever you push to git.
-
-You can also click this button:
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/victor-hugo)
 
 ## Enjoy!! 😸
