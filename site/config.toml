@@ -1,12 +1,19 @@
 baseurl = "/"
 languageCode = "en-nz"
 languageLang = "en"
-title = "Welcome to my page!"
+title = "Lorna Jacob"
 author = "Lorna Jacob"
 theme = "terrassa"
+defaultContentLanguage = "en"
 
-[params.copy]
-	message = "© 2021 Lorna Jacob"
+[params.hero]
+	textColor = "#db7093"
+
+[languages]
+	[languages.en]
+		languageName = "en"
+		weight = 1
+		contentDir = "content/en"
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
