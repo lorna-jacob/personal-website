@@ -12,4 +12,11 @@
 
 .hero {
     height: 85vh;
+    background-size: cover;
+}
+
+.hero__caption h2 {
+    background-color: #000000;
+    border: 1px solid black;
+    opacity: 0.9;
 }
