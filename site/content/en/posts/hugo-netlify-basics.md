@@ -39,4 +39,4 @@ Netlify build and deploy progress:
 {{< figure src="/posts/images/netlify-deploy.png">}}
 
 If build and deploy is successful, you should be able to see visual changes when you browse your site. 
-Congrats! You just created a Continuous Deployment pipeline for your website.
+Congrats! You just created a Continuous Deployment pipeline for your website. 🎉
