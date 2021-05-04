@@ -9,6 +9,27 @@ defaultContentLanguage = "en"
 [params.hero]
 	textColor = "#db7093"
 
+[params.posts]
+    showAuthor = true
+    showDate = true
+    showTags = true
+    dateFormat = "Monday, Jan, 2006"
+
+[params.form] # Contact form
+    netlify = true
+    action = "https://formspree.io/lornzjacob@gmail.com"
+    method = "POST"
+    inputNameName = "name"
+    inputNameLabel = "Name"
+    inputNamePlaceholder = "Your name"
+    inputEmailName = "email"
+    inputEmailLabel = "Email"
+    inputEmailPlaceholder = "Your email"
+    inputMsgName = "message"
+    inputMsgLabel = "Your message"
+    inputMsgLength = 750
+    inputSubmitValue = "Send"
+
 [languages]
 	[languages.en]
 		languageName = "en"
