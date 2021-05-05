@@ -8,4 +8,5 @@ weight: 1
 ---
 
 # Hello, there!
-## My name is Lorna Jacob. I'm a software developer currently living in New Zealand.
+## My name is Lorna Jacob. 
+I'm a software developer currently living in New Zealand.

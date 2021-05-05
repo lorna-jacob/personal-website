@@ -7,7 +7,7 @@ menu: main
 weight: 3
 ---
 
-{{< figure src="/images/my-photo.jpeg" title="Hi, I'm Lorna!">}}
+ >Hi, I'm Lorna!
 
 I was born in the Philippines. I started my career as a Software Developer when I was 19. 
 
@@ -23,6 +23,4 @@ Right after graduation, I started my career as an Entry Software Engineer at Eme
 
 In 2017, I moved to New Zealand and got a job as a Software Developer at Xero. I didn't know all that I didn't know back then until I moved here. I learned how to use GA to understand audience behaviors, I broadened my .NET skill with RESTful APIs and Microservices, got my AWS Developer certification, learned about CI/CD, picked up my front end development skill with React and Typescript, and a whole bunch more! 
 
-I realised there's more to being a developer than just understanding the requirements, designing the solution and coding it, and then delivering the product. 
-
-To be continued...
+{{< figure src="/images/aws-certified-developer-associate.png" class="img">}}
