@@ -9,7 +9,7 @@ draft: false
 tags: ["google-apps-script", "javascript"]
 ---
 
-Google Apps Script is a cloud-based JavaScript platform that lets you integrate with and automate tasks across Google products. It has built-in libraries for Google Workspace applications like Sheets, Gmail, Calendar, Drive, and more. You don't need to install anything to get started — Google gives you a code editor in the browser, and the scripts your write run on Google's servers.
+Google Apps Script is a cloud-based JavaScript platform that lets you integrate with and automate tasks across Google products. It has built-in libraries for Google Workspace applications like Sheets, Gmail, Calendar, Drive, and more. You don't need to install anything to get started — Google gives you a code editor in the browser, and the scripts you write runs on Google's servers.
 
 What can Apps Script do?
 
@@ -22,7 +22,7 @@ Apps Script is versatile. Among other things, you can:
 
 If you are interested to learn more 👉 [read from Google overview page itself.](https://developers.google.com/apps-script/overview)
 
-I wrote a mini side project to use the apps script for automating my monthly budget monitoring task. Every month, I download my Credit Card statements in CSV format from my bank, open up my Google Sheet, paste the transactions there, and then categorise my expenses one by one, generate nice charts and pivot tables, and compare how I did financially vs last month. On a nice day, it would take me about an hour to finish this. Early this year, instead of spending an hour doing the same thing again, I instead googled how can I automated this mundane task using Google Sheets. In my good ol' days, I used to write macros in MS Excel to do same stuff, so I thought what are the odds Sheets has the same functionality. And alas, I discovered Google Apps Script.
+I wrote a mini side project to use the apps script for automating my monthly budget monitoring task. Every month, I download my Credit Card statements in CSV format from my bank, open up my Google Sheet, paste the transactions there, and then categorise my expenses one by one, generate nice charts and pivot tables, and compare how I did financially vs last month. On a nice day, it would take me about an hour to finish this. Early this year, instead of spending an hour doing the same thing again, I instead googled how I can automate this mundane task using Google Sheets. In my good ol' days, I used to write macros in MS Excel to do same stuff, so I thought what are the odds Sheets has the same functionality. And alas, I discovered Google Apps Script.
 
 In a nutshell, here's what I did:
 - In my budget sheet, I added a custom menu to allow me to import the Credit Card statements from my Drive. (Now, getting the CSV from bank to Google Drive is still manually done by me :D) 
